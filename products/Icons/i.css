@@ -1,0 +1,40 @@
+section{
+    background-color: #22282a;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+div video{
+    width: 30%;
+}
+div img{
+    width: 400px;
+    transition: 0.5s;
+}
+div img:hover{
+    transform: scale(1.2);
+}
+.D1{
+    border: 5px solid greenyellow;
+    padding: 10px;
+    background-color: black;
+}
+.D2{
+    border: 5px solid greenyellow;
+    padding: 10px;
+    background-color: black;
+}
+footer{
+    color: #f0f0f0;
+    font-size: large;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.navigation a{
+    text-decoration: none;
+    color: green;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-left: 2em;
+}
+
+.navigation a:hover{
+    color:rgb(92, 227, 132);
+}
+
+.sp{
+    color: rgb(9, 255, 140);
+    font-size: 2.2em;
+    display: inline-block;
+    margin-top: 10px;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    background:url(./IMG_9931.JPG) no-repeat;
+    background-size: cover;
+    color:white;
+    background-position: center;
+}
+
+.main h2{
+      font-size: 2em;
+      font-weight: 900;
+      display: block;
+}
+.m{
+    border: 5px solid green;
+    border-radius: 30px;
+    padding: 10px 20px;
+    backdrop-filter:blur(10px);
+}
+.main h3{
+    font-size: 2.4em;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: #f0f0f0;
+    color: green;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    transition:0.4s;
+}
+
+.btn:hover{
+    color: rgb(92, 227, 132);
+    transform: scale(1.1);
+}
+
+.Products{
+    background-color: #fff;
+}
+.title{
+    color: green;
+    font-size: 2.1em;
+    font-weight: 900;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.product-card{
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
+}
+.product-card:hover .product-img{
+    opacity: 0.9;
+}
+
+.product-img img{
+    width: 100%;
+}
+
+
+.product-info{
+    padding: 1em;
+}
+.product-category{
+    font-size: 1.1em;
+    font-weight: 900;
+    color: 000;
+}
+
+.product-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.more{
+    text-decoration:none ;
+    color: green;
+}
